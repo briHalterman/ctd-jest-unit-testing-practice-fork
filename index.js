@@ -3,9 +3,9 @@ function fahrenheitToCelsius(degreesFahrenheit) {
     //  (<degrees in fahrenheit> - 32) * 5/9 = <degrees in celsius>
     let degreesCelsius;
 
-    (degreesFahrenheit - 32) * 5/9;
+    degreesCelsius = (degreesFahrenheit - 32) * 5/9;
 
-    return degreesFahrenheit;
+    return degreesCelsius;
 }
 
 function celsiusToFahrenheit(degreesCelsius) {
